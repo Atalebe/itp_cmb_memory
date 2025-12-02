@@ -20,3 +20,15 @@ All data and scripts here are sufficient to reproduce every figure and core scie
 
 # 📁 Repository Structure
 
+First public release of the ITP CMB Memory Kernel project.
+
+Includes:
+- Full Planck PR4 BiPoSH extraction (ℓ = 2–5)
+- Reconstructed memory kernels for three families
+- Null ensemble of 10,000 ΛCDM Gaussian simulations
+- Blind injection–recovery validation
+- Primordial spectrum reconstruction
+- All figures for the paper
+- Complete public scripts and configuration files
+
+Significance: p < 10⁻⁴ (look-elsewhere corrected)
