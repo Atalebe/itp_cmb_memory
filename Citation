@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite the following work."
+authors:
+  - family-names: Atalebe
+    given-names: Stephen
+title: "ITP CMB Memory Kernel Public Release"
+version: 1.0.0
+date-released: 2025-12-02
+doi: ""
+url: "https://github.com/atalebe/itp-cmb-memory"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Atalebe
+      given-names: Stephen
+  title: "A Direct Reconstruction of the Primordial Universe from CMB Phase Correlations: Evidence for a Cosmological Memory Kernel"
+  year: 2025
