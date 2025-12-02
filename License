@@ -1,0 +1,78 @@
+# itp_cmb_memory
+Public release of the ITP CMB Memory Kernel analysis.  Includes data, scripts, and reproducible pipelines used in: “A Direct Reconstruction of the Primordial Universe from CMB Phase Correlations: Evidence for a Cosmological Memory Kernel” — Stephen Atalebe (2025).  
+# ITP CMB Memory Kernel — Public Release
+
+This repository contains the complete public release of data, code, and figures for the paper:
+Reproducible analysis scripts and data for the first direct reconstruction of a cosmological memory kernel from Planck PR4 CMB phase correlations.
+
+**Stephen Atalebe (2025)**  
+*A Direct Reconstruction of the Primordial Universe from CMB Phase Correlations: Evidence for a Cosmological Memory Kernel.*
+
+## ✨ Overview
+
+This project performs the **first direct reconstruction of a cosmological memory kernel** from CMB phase correlations. Using Planck PR4 data and a non-Markovian inverse framework (ITP), we show:
+
+- Highly significant detection: **p < 10⁻⁴**  
+- Kernel induces **contractive backward dynamics**  
+- **Blind injection–recovery** shows pipeline fidelity  
+- Full reconstruction of the primordial power spectrum
+
+All data and scripts here are sufficient to reproduce every figure and core scientific result.
+
+---
+
+# 📁 Repository Structure
+
+itp-cmb-memory/
+│
+├── public_release/
+│   ├── data/
+│   │   ├── kappa_l2_5_public.npz
+│   │   ├── memory_kernel_exp_public.npz
+│   │   ├── memory_kernel_poly_public.npz
+│   │   ├── memory_kernel_spline_public.npz
+│   │   ├── null_ensemble_delta_chi2_public.npz
+│   │   ├── injection_recovery_public.npz
+│   │   ├── *.txt  (summaries)
+│   │
+│   ├── figures/
+│   │   ├── fig1_kernels_and_kappa_public.png
+│   │   ├── fig2_delta_chi2_hist_public.png
+│   │   ├── fig3_pk_reconstruction_public.png
+│   │   ├── fig4_injection_recovery_public.png
+│   │
+│   ├── src/
+│   │   ├── fit_kernels_public.py
+│   │   ├── run_null_ensemble_public.py
+│   │   ├── injection_recovery_public.py
+│   │   ├── make_figures_public.py
+│   │   ├── config_public.py
+│
+│
+├── LICENSE
+├── README.md
+├── CITATION.cff
+└── .gitignore
+
+---
+
+# 🔧 Requirements
+
+Python 3.10+  
+NumPy  
+SciPy  
+matplotlib  
+healpy (optional if only reproducing kernel tests)  
+
+Install:
+
+```bash
+pip install numpy scipy matplotlib healpy
+@article{atalebe2025memorykernel,
+  author = {Stephen Atalebe},
+  title = {A Direct Reconstruction of the Primordial Universe from CMB Phase Correlations: Evidence for a Cosmological Memory Kernel},
+  year = {2025},
+  publisher = {Zenodo},
+  url = {https://github.com/atalebe/itp-cmb-memory}
+}
+
